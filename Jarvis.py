@@ -35,7 +35,7 @@ def takeCommand():
   return query
 if __name__ == "__main__":
   wishMe()
- # while True:
+ 
   if 1:
     query=takeCommand().lower()
     if 'wikipedia' in query:
